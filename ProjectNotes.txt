@@ -1,0 +1,38 @@
+Correlation:
+Monthly.Premium.Auto has strong positive correlation with Total.Claim.Amount
+Income has negative correlation with Total.Claim.Amount
+Customer.Lifetime.Value has positive correlation with Monthly.Premium.Auto
+Other independent variables do not have much correlation with target variable Response
+
+Customer Lifetime Value distribution is right skewed showing most of the customers have lowe lifetime value
+Distribution of income shows significant portion of the policyholders have $0 income.
+Monthly Premium distribution is also right skewed
+Relationship Length does not have clear pattern of distribution
+Most of the Customers do not have complaint but those having 2 open complaints have the lowest rate of positive response to renewal offer
+
+Who are valuable customers for Safe Insurance? Based on CLTV or Claims measure? Does CLTV number include claims factor?
+
+Check offer and the median claim amount
+
+CLV in data has taken into account loss? or not?
+
+2 potential target variables: CLV and Response
+
+Profile of customer who are more likely to respond positively to renewal offer:
+1. Policyholders of bigger vehicle has better response rate than smaller /  mid size vehicles although the population of bigger vehicle is smaller
+2. Higher educated policyholders show better response rate than lower educated policyholders
+3. Divorcee shows better response than Married / Single Policyholders
+4. Offer 3 and 4 are not popular. But when comparing the median claim amount of policyholder population in each Offer type, Offer 1 and 2 have higher claims. 
+This could mean we are attracting more policyholders with poorer claim records
+5. Policy sold via agent has better response rate than other channels. Call center performs worst
+6. Those who have 2 open complaints are the least likely to accept the renewal offer
+7. Policyholders with more policies are more likely to respond positively to renewal offer
+8. Retiree responds more positively to renewal offer but the population of retiree amoing policyholder is smallest
+
+Model is only for renewal targetting.
+
+
+
+
+
+
